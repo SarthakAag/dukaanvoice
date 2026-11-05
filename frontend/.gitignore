@@ -1,0 +1,154 @@
+# ==========================================
+# ENVIRONMENT VARIABLES AND SECRETS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# API keys and credentials
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ==========================================
+# PYTHON BACKEND
+# ==========================================
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Test and coverage cache
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking and linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# ==========================================
+# NODE.JS / REACT / VITE FRONTEND
+# ==========================================
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Testing and coverage
+coverage/
+
+# npm / yarn / pnpm logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==========================================
+# EDITORS AND IDEs
+# ==========================================
+
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# DATABASE AND BACKUP FILES
+# ==========================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# PostgreSQL dumps and backups
+*.sql.gz
+*.dump
+*.backup
+*.bak
+
+# ==========================================
+# AUDIO AND MEDIA FILES
+# ==========================================
+
+*.wav
+*.mp3
+*.mp4
+*.webm
+*.ogg
+*.m4a
+
+# ==========================================
+# GENERATED DOCUMENTS AND INVOICES
+# ==========================================
+
+*.pdf
+
+# ==========================================
+# TEMPORARY FILES
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.orig
+*.rej
+
+# ==========================================
+# DOCKER AND LOCAL CONFIGURATION
+# ==========================================
+
+docker-compose.override.yml
+
+# ==========================================
+# LOCAL ENVIRONMENT FILES
+# ==========================================
+
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
