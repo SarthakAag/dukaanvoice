@@ -1,10 +1,11 @@
-# ==========================================
-# ENVIRONMENT VARIABLES AND SECRETS
-# ==========================================
-
+# Environment files - never upload secrets
 .env
 .env.*
 !.env.example
+!.env.docker.example
+
+# Docker environment files
+.env.docker
 
 # API keys and credentials
 secrets/
